@@ -49,5 +49,11 @@
     <Folder Include="MySQLDAO\" />
     <Folder Include="SQLServerDAO\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AlquilerSoft.CapaDominio\AlquilerSoft.CapaDominio.csproj">
+      <Project>{6d88dfeb-2d73-4dbf-aaa1-ba5bef44cf1e}</Project>
+      <Name>AlquilerSoft.CapaDominio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

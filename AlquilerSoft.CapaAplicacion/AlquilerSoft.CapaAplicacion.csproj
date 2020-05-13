@@ -48,5 +48,15 @@
     <Compile Include="Servicios\ReportarAlquilerServicio.cs" />
     <Compile Include="Servicios\ReportarServiciosServicio.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AlquilerSoft.CapaDominio\AlquilerSoft.CapaDominio.csproj">
+      <Project>{6d88dfeb-2d73-4dbf-aaa1-ba5bef44cf1e}</Project>
+      <Name>AlquilerSoft.CapaDominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AlquilerSoft.CapaPersistencia\AlquilerSoft.CapaPersistencia.csproj">
+      <Project>{f328e53d-31fc-42a5-ab38-25a76147e403}</Project>
+      <Name>AlquilerSoft.CapaPersistencia</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
